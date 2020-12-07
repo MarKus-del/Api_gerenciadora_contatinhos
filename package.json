@@ -1,10 +1,11 @@
 {
   "name": "webnar",
   "version": "1.0.0",
-  "description": "APIU para gerenciar contatinhos",
+  "description": "API para gerenciar contatinhos",
   "main": "server.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./node_modules/.bin/ts-node ./server/server.ts"
   },
   "author": "Marcos Rodrigues",
   "license": "ISC",
